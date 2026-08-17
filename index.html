@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Bharat OS | Smart Education Project</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f7fb;
+      color: #172033;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ff9933, #ffffff, #138808);
+      padding: 45px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    nav {
+      background: #172033;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ff9933;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 70px 20px;
+      background: white;
+    }
+
+    .hero h2 {
+      font-size: 38px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      color: #555;
+      font-size: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 28px;
+      background: #138808;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #0b6505;
+    }
+
+    section {
+      padding: 55px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 35px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .card .icon {
+      font-size: 42px;
+      margin-bottom: 12px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .about {
+      background: #172033;
+      color: white;
+      max-width: none;
+      text-align: center;
+    }
+
+    .about p {
+      max-width: 750px;
+      margin: auto;
+      font-size: 17px;
+    }
+
+    .contact {
+      text-align: center;
+      background: white;
+    }
+
+    footer {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+    }
+
+    footer span {
+      color: #ff9933;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 32px;
+      }
+
+      .hero h2 {
+        font-size: 29px;
+      }
+
+      nav a {
+        margin: 0 5px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🇮🇳 Bharat OS</h1>
+    <p>Smart • Secure • Made for India</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#features">Features</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero" id="home">
+    <h2>Welcome to Bharat OS</h2>
+
+    <p>
+      Bharat OS is a smart education and technology project
+      focused on creating simple, useful and accessible digital
+      solutions for everyone.
+    </p>
+
+    <a href="#features" class="btn">Explore Project</a>
+  </div>
+
+  <section id="features">
+    <h2>🚀 Our Features</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <div class="icon">📚</div>
+        <h3>Smart Education</h3>
+        <p>
+          Simple and modern learning solutions for students.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🇮🇳</div>
+        <h3>Made for India</h3>
+        <p>
+          Designed with Indian users and students in mind.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🔐</div>
+        <h3>Privacy & Security</h3>
+        <p>
+          Focused on safe and responsible technology.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">💡</div>
+        <h3>Innovation</h3>
+        <p>
+          New ideas and technology for a better digital future.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>🇮🇳 About Bharat OS</h2>
+
+    <p>
+      Bharat OS is a project created to explore the future of
+      Indian technology and smart education. Our goal is to make
+      technology simple, useful and accessible while encouraging
+      innovation and learning.
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>📩 Contact</h2>
+
+    <p>
+      Have an idea or suggestion for Bharat OS?
+    </p>
+
+    <a href="mailto:contact@bharatos.example" class="btn">
+      Contact Us
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2026 <span>Bharat OS</span> | Smart Education Project
+    </p>
+  </footer>
+
+</body>
+</html>
